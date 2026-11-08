@@ -1,0 +1,4 @@
+{
+  "_comment": "Rust's values are in the mod (rustdata/wearables.json). List an item here to change it: \"hoodie\": { \"projectile\": 20, \"melee\": 20, \"explosion\": 0, \"radiation\": 5, \"cold\": 50, \"bite\": 35 } (percent; every field is optional).",
+  "overrides": {}
+}

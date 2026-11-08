@@ -1,0 +1,879 @@
+{
+  "player": {
+    "headEyeOffset": 0.15,
+    "chestMinY": 0.96,
+    "bulletHitboxPadding": 0.1,
+    "boxWidth": 0.6,
+    "boxDepth": 0.45,
+    "zones": {
+      "head": {
+        "name": "Голова (Head)",
+        "multiplier": 2,
+        "eyeOffset": 0.22,
+        "color": "#ef4444"
+      },
+      "chest": {
+        "name": "Тело / Торс (Chest)",
+        "multiplier": 1,
+        "minY": 0.8,
+        "color": "#3b82f6"
+      },
+      "legs": {
+        "name": "Ноги (Legs)",
+        "multiplier": 0.75,
+        "minY": 0,
+        "maxY": 0.8,
+        "color": "#10b981"
+      }
+    }
+  },
+  "objects": {
+    "wall.window": {
+      "name": "Окно (Window Wall)",
+      "category": "building",
+      "solids": [
+        {
+          "name": "Нижний парапет",
+          "center": [
+            0,
+            0.5,
+            0
+          ],
+          "extents": [
+            1.5,
+            0.5,
+            0.12
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Верхняя балка",
+          "center": [
+            0,
+            2.7,
+            0
+          ],
+          "extents": [
+            1.5,
+            0.3,
+            0.12
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Левая стойка",
+          "center": [
+            -1.05,
+            1.7,
+            0
+          ],
+          "extents": [
+            0.45,
+            0.7,
+            0.12
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Правая стойка",
+          "center": [
+            1.05,
+            1.7,
+            0
+          ],
+          "extents": [
+            0.45,
+            0.7,
+            0.12
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        }
+      ]
+    },
+    "wall.doorway": {
+      "name": "Дверной проем (Doorway)",
+      "category": "building",
+      "solids": [
+        {
+          "name": "Верхняя перемычка",
+          "center": [
+            0,
+            2.6,
+            0.015
+          ],
+          "extents": [
+            1.5,
+            0.4,
+            0.105
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Левый косяк",
+          "center": [
+            -1,
+            1.1,
+            0
+          ],
+          "extents": [
+            0.5,
+            1.1,
+            0.12
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Правый косяк",
+          "center": [
+            1,
+            1.1,
+            0
+          ],
+          "extents": [
+            0.5,
+            1.1,
+            0.12
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        }
+      ]
+    },
+    "wall.frame": {
+      "name": "Каркас стены (Wall Frame)",
+      "category": "building",
+      "solids": [
+        {
+          "name": "Нижняя обвязка",
+          "center": [
+            0,
+            0.15,
+            0
+          ],
+          "extents": [
+            1.5,
+            0.15,
+            0.15
+          ],
+          "solid": true,
+          "color": "#d97706"
+        },
+        {
+          "name": "Верхняя обвязка",
+          "center": [
+            0,
+            2.85,
+            0
+          ],
+          "extents": [
+            1.5,
+            0.15,
+            0.15
+          ],
+          "solid": true,
+          "color": "#d97706"
+        },
+        {
+          "name": "Левая стойка",
+          "center": [
+            -1.35,
+            1.5,
+            0
+          ],
+          "extents": [
+            0.15,
+            1.2,
+            0.15
+          ],
+          "solid": true,
+          "color": "#d97706"
+        },
+        {
+          "name": "Правая стойка",
+          "center": [
+            1.35,
+            1.5,
+            0
+          ],
+          "extents": [
+            0.15,
+            1.2,
+            0.15
+          ],
+          "solid": true,
+          "color": "#d97706"
+        }
+      ]
+    },
+    "floor.frame": {
+      "name": "Люк / Каркас пола (Floor Frame)",
+      "category": "building",
+      "solids": [
+        {
+          "name": "Северная балка",
+          "center": [
+            0,
+            0.075,
+            1.35
+          ],
+          "extents": [
+            1.5,
+            0.075,
+            0.15
+          ],
+          "solid": true,
+          "color": "#d97706"
+        },
+        {
+          "name": "Южная балка",
+          "center": [
+            0,
+            0.075,
+            -1.35
+          ],
+          "extents": [
+            1.5,
+            0.075,
+            0.15
+          ],
+          "solid": true,
+          "color": "#d97706"
+        },
+        {
+          "name": "Западная балка",
+          "center": [
+            -1.35,
+            0.075,
+            0
+          ],
+          "extents": [
+            0.15,
+            0.075,
+            1.2
+          ],
+          "solid": true,
+          "color": "#d97706"
+        },
+        {
+          "name": "Восточная балка",
+          "center": [
+            1.35,
+            0.075,
+            0
+          ],
+          "extents": [
+            0.15,
+            0.075,
+            1.2
+          ],
+          "solid": true,
+          "color": "#d97706"
+        }
+      ]
+    },
+    "roof": {
+      "name": "Крыша под углом (Roof)",
+      "category": "building",
+      "solids": [
+        {
+          "name": "Скат крыши (Клин)",
+          "center": [
+            0,
+            1.5,
+            0
+          ],
+          "extents": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "topPlane": [
+            0,
+            0.7071,
+            0.7071,
+            1.5
+          ],
+          "solid": true,
+          "color": "#f97316"
+        }
+      ]
+    },
+    "wall": {
+      "name": "Сплошная стена (Wall)",
+      "category": "building",
+      "solids": [
+        {
+          "name": "Стена",
+          "center": [
+            0,
+            1.5,
+            0
+          ],
+          "extents": [
+            1.5,
+            1.5,
+            0.12
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        }
+      ]
+    },
+    "wall.half": {
+      "name": "Полустена (Half Wall)",
+      "category": "building",
+      "solids": [
+        {
+          "name": "Полустена",
+          "center": [
+            0,
+            0.75,
+            0
+          ],
+          "extents": [
+            1.5,
+            0.75,
+            0.12
+          ],
+          "solid": true,
+          "color": "#f59e0b"
+        }
+      ]
+    },
+    "floor": {
+      "name": "Пол / Перекрытие (Floor)",
+      "category": "building",
+      "solids": [
+        {
+          "name": "Плита пола",
+          "center": [
+            0,
+            0.1,
+            0
+          ],
+          "extents": [
+            1.5,
+            0.1,
+            1.5
+          ],
+          "solid": true,
+          "color": "#b45309"
+        }
+      ]
+    },
+    "workbench1": {
+      "name": "Верстак T1 (Workbench 1)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Столешница",
+          "center": [
+            0,
+            0.78,
+            0
+          ],
+          "extents": [
+            0.65,
+            0.08,
+            0.45
+          ],
+          "solid": true,
+          "color": "#3b82f6"
+        },
+        {
+          "name": "Задняя полка",
+          "center": [
+            0,
+            1.25,
+            -0.32
+          ],
+          "extents": [
+            0.6,
+            0.4,
+            0.12
+          ],
+          "solid": true,
+          "color": "#60a5fa"
+        },
+        {
+          "name": "Левая опора",
+          "center": [
+            -0.55,
+            0.35,
+            0
+          ],
+          "extents": [
+            0.08,
+            0.35,
+            0.38
+          ],
+          "solid": true,
+          "color": "#2563eb"
+        },
+        {
+          "name": "Правая опора",
+          "center": [
+            0.55,
+            0.35,
+            0
+          ],
+          "extents": [
+            0.08,
+            0.35,
+            0.38
+          ],
+          "solid": true,
+          "color": "#2563eb"
+        }
+      ]
+    },
+    "workbench2": {
+      "name": "Верстак T2 (Workbench 2)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Столешница",
+          "center": [
+            0,
+            0.744,
+            0
+          ],
+          "extents": [
+            0.75,
+            0.106,
+            0.428
+          ],
+          "solid": true,
+          "color": "#06b6d4"
+        },
+        {
+          "name": "Механизмы сверху",
+          "center": [
+            0.005,
+            1.473,
+            0.296
+          ],
+          "extents": [
+            0.755,
+            0.364,
+            0.044
+          ],
+          "solid": true,
+          "color": "#22d3ee",
+          "yaw": 0
+        },
+        {
+          "name": "Основание стола",
+          "center": [
+            0.015,
+            0.18,
+            -0.071
+          ],
+          "extents": [
+            0.714,
+            0.041,
+            0.496
+          ],
+          "solid": true,
+          "color": "#0891b2"
+        },
+        {
+          "name": "Часть #4",
+          "center": [
+            0,
+            1.342,
+            0
+          ],
+          "extents": [
+            0.789,
+            0.647,
+            0.423
+          ],
+          "color": "#3bf796",
+          "solid": false
+        }
+      ]
+    },
+    "workbench3": {
+      "name": "Верстак T3 (Workbench 3)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Стол верстака",
+          "center": [
+            0,
+            0.85,
+            0
+          ],
+          "extents": [
+            0.8,
+            0.1,
+            0.55
+          ],
+          "solid": true,
+          "color": "#8b5cf6"
+        },
+        {
+          "name": "Верхний шкаф/приборы",
+          "center": [
+            0,
+            1.5,
+            -0.2
+          ],
+          "extents": [
+            0.75,
+            0.55,
+            0.25
+          ],
+          "solid": true,
+          "color": "#a78bfa"
+        },
+        {
+          "name": "Нижний корпус",
+          "center": [
+            0,
+            0.38,
+            0
+          ],
+          "extents": [
+            0.72,
+            0.38,
+            0.45
+          ],
+          "solid": true,
+          "color": "#7c3aed"
+        }
+      ]
+    },
+    "furnace": {
+      "name": "Печь (Furnace)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Основание печи",
+          "center": [
+            0,
+            0.65,
+            0
+          ],
+          "extents": [
+            0.45,
+            0.65,
+            0.45
+          ],
+          "solid": true,
+          "color": "#ea580c"
+        },
+        {
+          "name": "Труба печи",
+          "center": [
+            0,
+            1.6,
+            0
+          ],
+          "extents": [
+            0.28,
+            0.35,
+            0.28
+          ],
+          "solid": true,
+          "color": "#c2410c"
+        }
+      ]
+    },
+    "furnace_large": {
+      "name": "Большая печь (Large Furnace)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Нижний чан",
+          "center": [
+            0,
+            1.25,
+            0
+          ],
+          "extents": [
+            1.3,
+            1.25,
+            1.3
+          ],
+          "solid": true,
+          "color": "#ea580c"
+        },
+        {
+          "name": "Средняя секция",
+          "center": [
+            0,
+            3.2,
+            0
+          ],
+          "extents": [
+            0.95,
+            0.7,
+            0.95
+          ],
+          "solid": true,
+          "color": "#c2410c"
+        },
+        {
+          "name": "Дымоход конус",
+          "center": [
+            0,
+            4.5,
+            0
+          ],
+          "extents": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "solid": true,
+          "color": "#9a3412"
+        }
+      ]
+    },
+    "research_table": {
+      "name": "Исследовательский стол (Research Table)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Плита стола",
+          "center": [
+            0,
+            0.85,
+            0
+          ],
+          "extents": [
+            0.75,
+            0.08,
+            0.5
+          ],
+          "solid": true,
+          "color": "#10b981"
+        },
+        {
+          "name": "Оборудование / лупа",
+          "center": [
+            0,
+            1.25,
+            0
+          ],
+          "extents": [
+            0.5,
+            0.32,
+            0.35
+          ],
+          "solid": true,
+          "color": "#34d399"
+        },
+        {
+          "name": "Ножки стола",
+          "center": [
+            0,
+            0.4,
+            0
+          ],
+          "extents": [
+            0.65,
+            0.4,
+            0.4
+          ],
+          "solid": true,
+          "color": "#059669"
+        }
+      ]
+    },
+    "prop_shelves": {
+      "name": "Стеллаж (Shelves)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Нижняя полка",
+          "center": [
+            0,
+            0.2,
+            0
+          ],
+          "extents": [
+            0.9,
+            0.06,
+            0.45
+          ],
+          "solid": true,
+          "color": "#64748b"
+        },
+        {
+          "name": "Средняя полка",
+          "center": [
+            0,
+            1.05,
+            0
+          ],
+          "extents": [
+            0.9,
+            0.06,
+            0.45
+          ],
+          "solid": true,
+          "color": "#64748b"
+        },
+        {
+          "name": "Верхняя полка",
+          "center": [
+            0,
+            1.9,
+            0
+          ],
+          "extents": [
+            0.9,
+            0.06,
+            0.45
+          ],
+          "solid": true,
+          "color": "#64748b"
+        },
+        {
+          "name": "Левая рама",
+          "center": [
+            -0.85,
+            1.05,
+            0
+          ],
+          "extents": [
+            0.05,
+            0.95,
+            0.42
+          ],
+          "solid": true,
+          "color": "#475569"
+        },
+        {
+          "name": "Правая рама",
+          "center": [
+            0.85,
+            1.05,
+            0
+          ],
+          "extents": [
+            0.05,
+            0.95,
+            0.42
+          ],
+          "solid": true,
+          "color": "#475569"
+        }
+      ]
+    },
+    "tool_cupboard": {
+      "name": "Шкаф с инструментами (Tool Cupboard)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Корпус шкафа",
+          "center": [
+            0,
+            0.85,
+            0
+          ],
+          "extents": [
+            0.38,
+            0.85,
+            0.32
+          ],
+          "solid": true,
+          "color": "#14b8a6"
+        }
+      ]
+    },
+    "box_wooden": {
+      "name": "Малый ящик (Small Box)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Ящик",
+          "center": [
+            0,
+            0.25,
+            0
+          ],
+          "extents": [
+            0.38,
+            0.25,
+            0.3
+          ],
+          "solid": true,
+          "color": "#d97706"
+        }
+      ]
+    },
+    "box_wooden_large": {
+      "name": "Большой сундук (Large Box)",
+      "category": "deployable",
+      "solids": [
+        {
+          "name": "Сундук",
+          "center": [
+            0,
+            0.4,
+            0
+          ],
+          "extents": [
+            0.75,
+            0.4,
+            0.4
+          ],
+          "solid": true,
+          "color": "#d97706"
+        }
+      ]
+    },
+    "door.hinged.wood": {
+      "name": "Деревянная дверь (Wood Door)",
+      "category": "door",
+      "solids": [
+        {
+          "name": "Полотно двери",
+          "center": [
+            0,
+            1.1,
+            0
+          ],
+          "extents": [
+            0.55,
+            1.05,
+            0.06
+          ],
+          "solid": true,
+          "color": "#92400e"
+        }
+      ]
+    },
+    "door.hinged.metal": {
+      "name": "Железная дверь (Metal Door)",
+      "category": "door",
+      "solids": [
+        {
+          "name": "Полотно двери (Лист)",
+          "center": [
+            0,
+            1.1,
+            0
+          ],
+          "extents": [
+            0.55,
+            1.05,
+            0.06
+          ],
+          "solid": true,
+          "color": "#64748b"
+        }
+      ]
+    }
+  }
+}

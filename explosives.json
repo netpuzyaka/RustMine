@@ -1,0 +1,3 @@
+{
+  "_comment": "Not read any more: the raid weapons are Rust's own numbers in rustdata/explosives.json (damage types, radius, fuse, dud chance) applied through each target's protection."
+}

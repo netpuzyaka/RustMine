@@ -1,0 +1,27 @@
+{
+  "globalDamageScale": 0.16,
+  "headshotMultiplier": 2.0,
+  "weaponDamage": {
+    "ak47": 50.0,
+    "sar": 40.0,
+    "sap": 40.0,
+    "thompson": 37.5,
+    "mp5": 35.0,
+    "smg": 30.0,
+    "bolt": 80.0,
+    "python": 55.0,
+    "revolver": 35.0,
+    "pump_shotgun": 180.0,
+    "double_barrel": 180.0,
+    "waterpipe": 180.0,
+    "eoka": 180.0,
+    "m92": 45.0,
+    "m39": 50.0,
+    "m249": 65.0,
+    "crossbow": 60.0,
+    "bow": 50.0,
+    "lr300": 40.0,
+    "l96": 90.0,
+    "rocket_launcher": 350.0
+  }
+}

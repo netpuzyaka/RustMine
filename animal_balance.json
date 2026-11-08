@@ -1,0 +1,7 @@
+{
+  "_comment": "Balance on top of Rust's animal data (rustdata/animals.json, generated from Rust - not edited by hand). Per animal: chaseSpeed multiplies the gait it runs at when it attacks (chase and charge); attackDamage replaces its bite's damage (Rust: bear 35, polar bear 45, wolf 30, boar 12, stag 10, chicken 3); damage multiplies the bite when attackDamage is not set. Owner's decisions 26.10.2026: bears, wolves and boars chase 1.5x slower; bites: bear 30, polar bear 35, wolf 25.",
+  "bear": { "chaseSpeed": 0.6667, "attackDamage": 30 },
+  "polar_bear": { "chaseSpeed": 0.6667, "attackDamage": 35 },
+  "wolf": { "chaseSpeed": 0.6667, "attackDamage": 25 },
+  "boar": { "chaseSpeed": 0.6667 }
+}

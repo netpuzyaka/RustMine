@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "_comment": "Rust BaseMelee data: gather = node health removed per hit, destroy = share of yield wasted; swingDelay = repeatDelay",
+  "tools": {
+    "rock": { "damage": 10, "softSideMult": 2, "swingDelay": 1.3, "treeGather": 10, "treeDestroy": 0.5, "oreGather": 5, "oreDestroy": 0.5, "fleshGather": 10, "fleshDestroy": 0.5 },
+    "stone_hatchet": { "damage": 15, "softSideMult": 3, "swingDelay": 0.9, "treeGather": 20, "treeDestroy": 0.15, "oreGather": 0, "oreDestroy": 0, "fleshGather": 10, "fleshDestroy": 0.334 },
+    "stone_pickaxe": { "damage": 17, "softSideMult": 3, "swingDelay": 0.9, "treeGather": 0, "treeDestroy": 0, "oreGather": 16, "oreDestroy": 0.15, "fleshGather": 10, "fleshDestroy": 0.2 },
+    "hatchet": { "damage": 25, "softSideMult": 5, "swingDelay": 0.9, "treeGather": 30, "treeDestroy": 0.1, "oreGather": 0, "oreDestroy": 0, "fleshGather": 12, "fleshDestroy": 0 },
+    "pickaxe": { "damage": 30, "softSideMult": 5, "swingDelay": 1.5, "treeGather": 0, "treeDestroy": 0, "oreGather": 30, "oreDestroy": 0, "fleshGather": 5, "fleshDestroy": 0.6 },
+    "salvaged_axe": { "damage": 40, "softSideMult": 8, "swingDelay": 1.25, "treeGather": 50, "treeDestroy": 0, "oreGather": 0, "oreDestroy": 0, "fleshGather": 15, "fleshDestroy": 0 },
+    "salvaged_icepick": { "damage": 40, "softSideMult": 8, "swingDelay": 1.25, "treeGather": 0, "treeDestroy": 0, "oreGather": 50, "oreDestroy": 0, "fleshGather": 5, "fleshDestroy": 0.2 },
+    "salvaged_hammer": { "damage": 40, "softSideMult": 7, "swingDelay": 1, "treeGather": 20, "treeDestroy": 0.2, "oreGather": 20, "oreDestroy": 0.2, "fleshGather": 10, "fleshDestroy": 0.6 },
+    "jackhammer": { "damage": 15, "softSideMult": 10, "swingDelay": 0.15, "treeGather": 0, "treeDestroy": 0, "oreGather": 25, "oreDestroy": 0, "fleshGather": 5, "fleshDestroy": 0.2 },
+    "chainsaw": { "damage": 12, "softSideMult": 10, "swingDelay": 0.2, "treeGather": 30, "treeDestroy": 0, "oreGather": 0, "oreDestroy": 0, "fleshGather": 2, "fleshDestroy": 0.25 },
+    "bone_knife": { "damage": 16, "softSideMult": 2, "swingDelay": 0.7, "treeGather": 0, "treeDestroy": 0, "oreGather": 0, "oreDestroy": 0, "fleshGather": 17, "fleshDestroy": 0 },
+    "combat_knife": { "damage": 35, "softSideMult": 4, "swingDelay": 0.7, "treeGather": 0, "treeDestroy": 0, "oreGather": 0, "oreDestroy": 0, "fleshGather": 20, "fleshDestroy": 0 }
+  },
+  "nodes": {
+    "_comment": "Ore node: health 500 (Rust startHealth); yield = contained * damage/health * (1 - destroyFraction); finish bonus when destroyed share <= maxDestroyFractionForFinishBonus",
+    "stone":  { "health": 500, "contained": 833, "finish": 167, "secondary": 0, "secondaryFinish": 0 },
+    "metal":  { "health": 500, "contained": 500, "finish": 100, "secondary": 0, "secondaryFinish": 2 },
+    "sulfur": { "health": 500, "contained": 250, "finish": 50,  "secondary": 0, "secondaryFinish": 0 },
+    "hqm":    { "health": 500, "contained": 25,  "finish": 5,   "secondary": 0, "secondaryFinish": 0 },
+    "maxDestroyFractionForFinishBonus": 0.2,
+    "hotspotMultipliers": [1.5, 2.0, 2.5, 3.0]
+  },
+  "trees": {
+    "_comment": "Rust trees: wood = health/2, finish bonus = same again; health from trunk height, clamped to Rust tree range",
+    "healthPerLog": 150, "minHealth": 200, "maxHealth": 1000, "woodPerHealth": 0.5, "finishPerHealth": 0.5, "markerMultiplier": 1.5
+  },
+  "cactus": {
+    "_comment": "Rust v3_arid_cactus (cactus-1..7.prefab): 100/200/300 HP, 5/10/15 cloth, 1/2/3 cactus_flesh, gatherType = Tree, finishBonus = []",
+    "healthPerBlock": 100, "minHealth": 100, "maxHealth": 300, "clothPerHealth": 0.05, "fleshPerHealth": 0.01
+  }
+}

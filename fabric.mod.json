@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "rustmine",
+  "version": "0.1.2",
+  "name": "Rustmine",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rustmine.RustmineMod",
+      "com.rustboats.RustBoats",
+      "com.rustminicopter.RustMinicopter"
+    ],
+    "client": [
+      "net.rustmine.client.RustmineClient",
+      "com.rustboats.client.RustBoatsClient",
+      "com.rustminicopter.client.RustMinicopterClient"
+    ]
+  },
+  "mixins": [
+    "rustmine.mixins.json",
+    {
+      "config": "rustmine.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.17.3",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  },
+  "description": "Rustmine: authentic Rust mechanics, vehicles, building and survival systems in Minecraft.",
+  "authors": [
+    "Rustmine Team"
+  ],
+  "license": "ARR",
+  "jars": [
+    {
+      "file": "META-INF/jars/concentus-1.0.2.jar"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "description": "RustMine inventory interaction and quick transfer settings",
+  "hoverLootDelayMs": 140,
+  "dragThresholdPx": 4
+}

@@ -1,0 +1,5 @@
+{
+  "craft_speed_multiplier": 1.0,
+  "instant_craft": false,
+  "craft_time_overrides": {}
+}

@@ -1,0 +1,15 @@
+{
+  "tcRadius": 32.0,
+  "minDistanceBetweenTCs": 32.0,
+  "minDistanceBetweenBags": 2.5,
+  "tcMaxHealth": 100.0,
+  "decayHoursWithoutUpkeep": 24.0,
+  "decayCheckIntervalTicks": 1200,
+  "upkeepPerHour": {
+    "twig": { "wood": 0 },
+    "wood": { "wood": 20 },
+    "stone": { "stones": 30 },
+    "metal": { "metal_fragments": 25 },
+    "armored": { "hqm": 3 }
+  }
+}

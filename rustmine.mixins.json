@@ -1,0 +1,40 @@
+{
+  "required": true,
+  "package": "net.rustmine.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractContainerMenuMixin",
+    "AvatarMixin",
+    "BlockStateBaseMixin",
+    "CactusBlockMixin",
+    "ChunkMapAccessor",
+    "ContainerMixin",
+    "DataComponentsMixin",
+    "EntityMixin",
+    "EntityGetterMixin",
+    "FallingBlockMixin",
+    "InteractPacketAccessor",
+    "InventoryMixin",
+    "ItemEntityMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "MyceliumBlockMixin",
+    "NaturalSpawnerMixin",
+    "PlayerInfoPacketAccessor",
+    "PlayerMixin",
+    "PlayerSprintMixin",
+    "ServerGamePacketListenerMixin",
+    "ServerLevelMixin",
+    "ServerLoginAccessor",
+    "SlotAccessor",
+    "SlotMixin",
+    "SnowLayerBlockMixin",
+    "SpreadingSnowyDirtBlockMixin",
+    "StandingAndWallBlockItemAccessor",
+    "TrackedEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

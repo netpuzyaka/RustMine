@@ -1,0 +1,10 @@
+{
+  "item_despawn_minutes": 60.0,
+  "backpack_despawn_minutes": 60.0,
+  "corpse_despawn_minutes": 60.0,
+  "pouch_despawn_minutes": 60.0,
+  "tier_overrides_minutes": {
+    "weapons": 60.0,
+    "explosives": 60.0
+  }
+}

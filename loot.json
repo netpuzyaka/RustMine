@@ -1,0 +1,1413 @@
+{
+  "rateMultiplier": 1.0,
+  "scrapMultiplier": 1.0,
+  "respawnRateMultiplier": 1.0,
+  "extraRolls": 0,
+  "defaultRespawnMinutes": 15.0,
+  "crateMultipliers": {
+    "basic": 1.0,
+    "normal": 1.0,
+    "military": 1.0,
+    "elite": 1.0,
+    "tools": 1.0,
+    "mine": 1.0,
+    "food": 1.0,
+    "medical": 1.0,
+    "barrel": 1.0,
+    "oil_barrel": 1.0,
+    "supply_drop": 1.0,
+    "hackable_crate": 1.0,
+    "heli_crate": 1.0,
+    "bradley_crate": 1.0
+  },
+  "crates": {
+    "military": {
+      "respawnMinutes": 20.0,
+      "minRolls": 2,
+      "maxRolls": 4,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:smgbody",
+          "min": 1,
+          "max": 1,
+          "weight": 140.0
+        },
+        {
+          "id": "rustmine:techparts",
+          "min": 2,
+          "max": 4,
+          "weight": 116.67
+        },
+        {
+          "id": "rustmine:metal_pipe",
+          "min": 5,
+          "max": 6,
+          "weight": 116.67
+        },
+        {
+          "id": "rustmine:hqm",
+          "min": 15,
+          "max": 25,
+          "weight": 116.67
+        },
+        {
+          "id": "rustmine:riflebody",
+          "min": 1,
+          "max": 1,
+          "weight": 93.33
+        },
+        {
+          "id": "rustmine:targeting_computer",
+          "min": 1,
+          "max": 1,
+          "weight": 69.64
+        },
+        {
+          "id": "rustmine:cctv_camera",
+          "min": 1,
+          "max": 1,
+          "weight": 52.98
+        },
+        {
+          "id": "rustmine:c4",
+          "min": 1,
+          "max": 1,
+          "weight": 14.29
+        },
+        {
+          "id": "rustmine:rocket_launcher",
+          "min": 1,
+          "max": 1,
+          "weight": 8.93
+        },
+        {
+          "id": "rustmine:beancan_grenade",
+          "min": 1,
+          "max": 1,
+          "weight": 5.95
+        },
+        {
+          "id": "rustmine:coffeecan_helmet",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:roadsign_kilt",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:hazmatsuit",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:roadsign_jacket",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:large_medkit",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:medical_syringe",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:chainsaw",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:python",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:salvaged_axe",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:salvaged_icepick",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:pump_shotgun",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:semi_auto_pistol",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:semi_auto_rifle",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:smg",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        },
+        {
+          "id": "rustmine:thompson",
+          "min": 1,
+          "max": 1,
+          "weight": 2.98
+        }
+      ]
+    },
+    "normal": {
+      "respawnMinutes": 15.0,
+      "minRolls": 2,
+      "maxRolls": 3,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:gears",
+          "min": 2,
+          "max": 3,
+          "weight": 94.54
+        },
+        {
+          "id": "rustmine:metal_pipe",
+          "min": 1,
+          "max": 5,
+          "weight": 94.54
+        },
+        {
+          "id": "rustmine:metal_spring",
+          "min": 1,
+          "max": 2,
+          "weight": 94.54
+        },
+        {
+          "id": "rustmine:road_signs",
+          "min": 2,
+          "max": 4,
+          "weight": 94.54
+        },
+        {
+          "id": "rustmine:sheet_metal",
+          "min": 1,
+          "max": 2,
+          "weight": 94.54
+        },
+        {
+          "id": "rustmine:semibody",
+          "min": 1,
+          "max": 1,
+          "weight": 94.54
+        },
+        {
+          "id": "rustmine:electric_fuse",
+          "min": 1,
+          "max": 1,
+          "weight": 94.54
+        },
+        {
+          "id": "rustmine:hazmatsuit",
+          "min": 1,
+          "max": 1,
+          "weight": 36.76
+        },
+        {
+          "id": "rustmine:targeting_computer",
+          "min": 1,
+          "max": 1,
+          "weight": 4.2
+        },
+        {
+          "id": "rustmine:beancan_grenade",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:crossbow",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:double_barrel",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:hatchet",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:pickaxe",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:waterpipe",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:revolver",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:salvaged_hammer",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:satchel_charge",
+          "min": 1,
+          "max": 1,
+          "weight": 3.27
+        },
+        {
+          "id": "rustmine:cctv_camera",
+          "min": 1,
+          "max": 1,
+          "weight": 3.15
+        }
+      ]
+    },
+    "elite": {
+      "respawnMinutes": 30.0,
+      "minRolls": 3,
+      "maxRolls": 5,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 25,
+          "max": 25
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:smgbody",
+          "min": 1,
+          "max": 1,
+          "weight": 114.55
+        },
+        {
+          "id": "rustmine:techparts",
+          "min": 2,
+          "max": 4,
+          "weight": 95.45
+        },
+        {
+          "id": "rustmine:metal_pipe",
+          "min": 5,
+          "max": 6,
+          "weight": 95.45
+        },
+        {
+          "id": "rustmine:hqm",
+          "min": 15,
+          "max": 25,
+          "weight": 95.45
+        },
+        {
+          "id": "rustmine:riflebody",
+          "min": 1,
+          "max": 1,
+          "weight": 76.36
+        },
+        {
+          "id": "rustmine:targeting_computer",
+          "min": 1,
+          "max": 1,
+          "weight": 56.98
+        },
+        {
+          "id": "rustmine:cctv_camera",
+          "min": 1,
+          "max": 1,
+          "weight": 43.34
+        },
+        {
+          "id": "rustmine:c4",
+          "min": 1,
+          "max": 1,
+          "weight": 21.26
+        },
+        {
+          "id": "rustmine:metal_facemask",
+          "min": 1,
+          "max": 1,
+          "weight": 9.57
+        },
+        {
+          "id": "rustmine:metal_chestplate",
+          "min": 1,
+          "max": 1,
+          "weight": 9.57
+        },
+        {
+          "id": "rustmine:ak47",
+          "min": 1,
+          "max": 1,
+          "weight": 9.57
+        },
+        {
+          "id": "rustmine:bolt",
+          "min": 1,
+          "max": 1,
+          "weight": 9.57
+        },
+        {
+          "id": "rustmine:m249",
+          "min": 1,
+          "max": 1,
+          "weight": 9.57
+        },
+        {
+          "id": "rustmine:mp5",
+          "min": 1,
+          "max": 1,
+          "weight": 9.57
+        },
+        {
+          "id": "rustmine:rocket_launcher",
+          "min": 1,
+          "max": 1,
+          "weight": 7.31
+        },
+        {
+          "id": "rustmine:beancan_grenade",
+          "min": 1,
+          "max": 1,
+          "weight": 4.87
+        },
+        {
+          "id": "rustmine:coffeecan_helmet",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:roadsign_kilt",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:hazmatsuit",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:roadsign_jacket",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:large_medkit",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:medical_syringe",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:chainsaw",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:python",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:salvaged_axe",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:salvaged_icepick",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:pump_shotgun",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:semi_auto_pistol",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:semi_auto_rifle",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:smg",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        },
+        {
+          "id": "rustmine:thompson",
+          "min": 1,
+          "max": 1,
+          "weight": 2.44
+        }
+      ]
+    },
+    "supply_drop": {
+      "respawnMinutes": 60.0,
+      "minRolls": 3,
+      "maxRolls": 5,
+      "items": [
+        {
+          "id": "rustmine:targeting_computer",
+          "min": 1,
+          "max": 1,
+          "weight": 151.52
+        },
+        {
+          "id": "rustmine:beancan_grenade",
+          "min": 1,
+          "max": 1,
+          "weight": 90.91
+        },
+        {
+          "id": "rustmine:hqm",
+          "min": 50,
+          "max": 50,
+          "weight": 90.91
+        },
+        {
+          "id": "rustmine:ammo_pistol",
+          "min": 15,
+          "max": 15,
+          "weight": 75.76
+        },
+        {
+          "id": "rustmine:ammo_shotgun",
+          "min": 6,
+          "max": 6,
+          "weight": 55.1
+        },
+        {
+          "id": "rustmine:ammo_556",
+          "min": 12,
+          "max": 12,
+          "weight": 33.67
+        },
+        {
+          "id": "rustmine:ammo_shotgun_slug",
+          "min": 4,
+          "max": 4,
+          "weight": 33.06
+        },
+        {
+          "id": "rustmine:ammo_shotgun_fire",
+          "min": 4,
+          "max": 8,
+          "weight": 33.06
+        },
+        {
+          "id": "rustmine:c4",
+          "min": 1,
+          "max": 1,
+          "weight": 30.3
+        },
+        {
+          "id": "rustmine:ammo_pistol_fire",
+          "min": 10,
+          "max": 10,
+          "weight": 30.3
+        },
+        {
+          "id": "rustmine:semi_auto_pistol",
+          "min": 1,
+          "max": 1,
+          "weight": 30.3
+        },
+        {
+          "id": "rustmine:double_barrel",
+          "min": 1,
+          "max": 5,
+          "weight": 30.3
+        },
+        {
+          "id": "rustmine:rocket_launcher",
+          "min": 1,
+          "max": 35,
+          "weight": 30.3
+        },
+        {
+          "id": "rustmine:smg",
+          "min": 1,
+          "max": 20,
+          "weight": 18.94
+        },
+        {
+          "id": "rustmine:ammo_pistol_hv",
+          "min": 10,
+          "max": 10,
+          "weight": 15.15
+        },
+        {
+          "id": "rustmine:ammo_556_incendiary",
+          "min": 8,
+          "max": 8,
+          "weight": 13.47
+        },
+        {
+          "id": "rustmine:ak47",
+          "min": 1,
+          "max": 12,
+          "weight": 9.47
+        },
+        {
+          "id": "rustmine:bolt",
+          "min": 1,
+          "max": 8,
+          "weight": 9.47
+        },
+        {
+          "id": "rustmine:mp5",
+          "min": 1,
+          "max": 30,
+          "weight": 9.47
+        },
+        {
+          "id": "rustmine:m92",
+          "min": 1,
+          "max": 30,
+          "weight": 9.47
+        },
+        {
+          "id": "rustmine:m39",
+          "min": 1,
+          "max": 50,
+          "weight": 5.68
+        },
+        {
+          "id": "rustmine:pump_shotgun",
+          "min": 1,
+          "max": 12,
+          "weight": 3.79
+        }
+      ]
+    },
+    "hackable_crate": {
+      "respawnMinutes": 120.0,
+      "minRolls": 4,
+      "maxRolls": 6,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 150,
+          "max": 150
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:ammo_556",
+          "min": 30,
+          "max": 120,
+          "weight": 76.92
+        },
+        {
+          "id": "rustmine:targeting_computer",
+          "min": 1,
+          "max": 1,
+          "weight": 61.54
+        },
+        {
+          "id": "rustmine:c4",
+          "min": 1,
+          "max": 1,
+          "weight": 36.5
+        },
+        {
+          "id": "rustmine:mp5",
+          "min": 1,
+          "max": 30,
+          "weight": 32.31
+        },
+        {
+          "id": "rustmine:gears",
+          "min": 5,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:metal_pipe",
+          "min": 5,
+          "max": 6,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:sheet_metal",
+          "min": 5,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:techparts",
+          "min": 4,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:hqm",
+          "min": 32,
+          "max": 40,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:pump_shotgun",
+          "min": 1,
+          "max": 12,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:m92",
+          "min": 1,
+          "max": 30,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:m39",
+          "min": 1,
+          "max": 50,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:beancan_grenade",
+          "min": 2,
+          "max": 4,
+          "weight": 21.98
+        },
+        {
+          "id": "rustmine:satchel_charge",
+          "min": 1,
+          "max": 1,
+          "weight": 21.98
+        },
+        {
+          "id": "rustmine:chainsaw",
+          "min": 1,
+          "max": 1,
+          "weight": 10.99
+        },
+        {
+          "id": "rustmine:jackhammer",
+          "min": 1,
+          "max": 1,
+          "weight": 10.99
+        },
+        {
+          "id": "rustmine:metal_facemask",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:metal_chestplate",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:ak47",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:bolt",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:m249",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        }
+      ]
+    },
+    "tools": {
+      "respawnMinutes": 15.0,
+      "minRolls": 1,
+      "maxRolls": 2,
+      "items": [
+        {
+          "id": "rustmine:hatchet",
+          "min": 1,
+          "max": 1,
+          "weight": 266.67
+        },
+        {
+          "id": "rustmine:pickaxe",
+          "min": 1,
+          "max": 1,
+          "weight": 266.67
+        },
+        {
+          "id": "rustmine:salvaged_icepick",
+          "min": 1,
+          "max": 1,
+          "weight": 66.67
+        },
+        {
+          "id": "rustmine:salvaged_axe",
+          "min": 1,
+          "max": 1,
+          "weight": 66.67
+        },
+        {
+          "id": "rustmine:chainsaw",
+          "min": 1,
+          "max": 40,
+          "weight": 33.33
+        },
+        {
+          "id": "rustmine:jackhammer",
+          "min": 1,
+          "max": 1,
+          "weight": 33.33
+        }
+      ]
+    },
+    "mine": {
+      "respawnMinutes": 15.0,
+      "minRolls": 1,
+      "maxRolls": 2,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:metal_fragments",
+          "min": 30,
+          "max": 50,
+          "weight": 153.85
+        },
+        {
+          "id": "rustmine:hqm",
+          "min": 1,
+          "max": 2,
+          "weight": 76.92
+        },
+        {
+          "id": "rustmine:gunpowder",
+          "min": 15,
+          "max": 25,
+          "weight": 76.92
+        },
+        {
+          "id": "rustmine:stone_hatchet",
+          "min": 1,
+          "max": 1,
+          "weight": 76.92
+        },
+        {
+          "id": "rustmine:stone_pickaxe",
+          "min": 1,
+          "max": 1,
+          "weight": 76.92
+        },
+        {
+          "id": "rustmine:hatchet",
+          "min": 1,
+          "max": 1,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:pickaxe",
+          "min": 1,
+          "max": 1,
+          "weight": 25.64
+        }
+      ]
+    },
+    "medical": {
+      "respawnMinutes": 15.0,
+      "minRolls": 1,
+      "maxRolls": 2,
+      "items": [
+        {
+          "id": "rustmine:bandage",
+          "min": 1,
+          "max": 1,
+          "weight": 454.55
+        },
+        {
+          "id": "rustmine:large_medkit",
+          "min": 1,
+          "max": 1,
+          "weight": 181.82
+        },
+        {
+          "id": "rustmine:medical_syringe",
+          "min": 1,
+          "max": 1,
+          "weight": 181.82
+        }
+      ]
+    },
+    "food": {
+      "respawnMinutes": 15.0,
+      "minRolls": 2,
+      "maxRolls": 3,
+      "items": [
+        {
+          "id": "rustmine:apple",
+          "min": 1,
+          "max": 1,
+          "weight": 100.0
+        },
+        {
+          "id": "rustmine:can_beans",
+          "min": 1,
+          "max": 1,
+          "weight": 100.0
+        },
+        {
+          "id": "rustmine:can_tuna",
+          "min": 1,
+          "max": 1,
+          "weight": 100.0
+        },
+        {
+          "id": "rustmine:chocolate",
+          "min": 1,
+          "max": 1,
+          "weight": 100.0
+        }
+      ]
+    },
+    "basic": {
+      "respawnMinutes": 10.0,
+      "rolls": 1,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:rope",
+          "min": 1,
+          "max": 2,
+          "weight": 20.0
+        },
+        {
+          "id": "rustmine:sewing_kit",
+          "min": 1,
+          "max": 2,
+          "weight": 20.0
+        },
+        {
+          "id": "rustmine:tarp",
+          "min": 1,
+          "max": 1,
+          "weight": 20.0
+        },
+        {
+          "id": "rustmine:metal_blade",
+          "min": 1,
+          "max": 2,
+          "weight": 20.0
+        },
+        {
+          "id": "rustmine:bandage",
+          "min": 2,
+          "max": 4,
+          "weight": 25.0
+        },
+        {
+          "id": "rustmine:burlap_shirt",
+          "min": 1,
+          "max": 1,
+          "weight": 8.0
+        },
+        {
+          "id": "rustmine:burlap_pants",
+          "min": 1,
+          "max": 1,
+          "weight": 8.0
+        },
+        {
+          "id": "rustmine:stone_hatchet",
+          "min": 1,
+          "max": 1,
+          "weight": 5.0
+        },
+        {
+          "id": "rustmine:stone_pickaxe",
+          "min": 1,
+          "max": 1,
+          "weight": 5.0
+        },
+        {
+          "id": "rustmine:wood_helmet",
+          "min": 1,
+          "max": 1,
+          "weight": 3.0
+        },
+        {
+          "id": "rustmine:wood_chestplate",
+          "min": 1,
+          "max": 1,
+          "weight": 3.0
+        },
+        {
+          "id": "rustmine:wood_pants",
+          "min": 1,
+          "max": 1,
+          "weight": 3.0
+        },
+        {
+          "id": "rustmine:bow",
+          "min": 1,
+          "max": 1,
+          "weight": 1.0
+        },
+        {
+          "id": "rustmine:crossbow",
+          "min": 1,
+          "max": 1,
+          "weight": 0.5
+        }
+      ]
+    },
+    "barrel": {
+      "respawnMinutes": 5.0,
+      "rolls": 1,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:metal_blade",
+          "min": 1,
+          "max": 2,
+          "weight": 20.0
+        },
+        {
+          "id": "rustmine:rope",
+          "min": 1,
+          "max": 2,
+          "weight": 20.0
+        },
+        {
+          "id": "rustmine:sewing_kit",
+          "min": 1,
+          "max": 2,
+          "weight": 18.0
+        },
+        {
+          "id": "rustmine:tarp",
+          "min": 1,
+          "max": 1,
+          "weight": 16.0
+        },
+        {
+          "id": "rustmine:metal_pipe",
+          "min": 1,
+          "max": 2,
+          "weight": 14.0
+        },
+        {
+          "id": "rustmine:gears",
+          "min": 1,
+          "max": 2,
+          "weight": 12.0
+        },
+        {
+          "id": "rustmine:sheet_metal",
+          "min": 1,
+          "max": 1,
+          "weight": 10.0
+        }
+      ]
+    },
+    "oil_barrel": {
+      "respawnMinutes": 5.0,
+      "rolls": 1,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "id": "rustmine:low_grade_fuel",
+          "min": 5,
+          "max": 10
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:crude_oil",
+          "min": 15,
+          "max": 20,
+          "weight": 65.0
+        },
+        {
+          "id": "rustmine:low_grade_fuel",
+          "min": 10,
+          "max": 15,
+          "weight": 35.0
+        }
+      ]
+    },
+    "heli_crate": {
+      "respawnMinutes": 120.0,
+      "minRolls": 4,
+      "maxRolls": 6,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 150,
+          "max": 150
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:ammo_556",
+          "min": 30,
+          "max": 120,
+          "weight": 76.92
+        },
+        {
+          "id": "rustmine:targeting_computer",
+          "min": 1,
+          "max": 1,
+          "weight": 61.54
+        },
+        {
+          "id": "rustmine:c4",
+          "min": 1,
+          "max": 1,
+          "weight": 36.5
+        },
+        {
+          "id": "rustmine:mp5",
+          "min": 1,
+          "max": 30,
+          "weight": 32.31
+        },
+        {
+          "id": "rustmine:gears",
+          "min": 5,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:metal_pipe",
+          "min": 5,
+          "max": 6,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:sheet_metal",
+          "min": 5,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:techparts",
+          "min": 4,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:hqm",
+          "min": 32,
+          "max": 40,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:pump_shotgun",
+          "min": 1,
+          "max": 12,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:m92",
+          "min": 1,
+          "max": 30,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:m39",
+          "min": 1,
+          "max": 50,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:beancan_grenade",
+          "min": 2,
+          "max": 4,
+          "weight": 21.98
+        },
+        {
+          "id": "rustmine:satchel_charge",
+          "min": 1,
+          "max": 1,
+          "weight": 21.98
+        },
+        {
+          "id": "rustmine:chainsaw",
+          "min": 1,
+          "max": 1,
+          "weight": 10.99
+        },
+        {
+          "id": "rustmine:jackhammer",
+          "min": 1,
+          "max": 1,
+          "weight": 10.99
+        },
+        {
+          "id": "rustmine:metal_facemask",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:metal_chestplate",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:ak47",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:bolt",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:m249",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        }
+      ]
+    },
+    "bradley_crate": {
+      "respawnMinutes": 120.0,
+      "minRolls": 4,
+      "maxRolls": 6,
+      "guaranteed": [
+        {
+          "id": "rustmine:scrap",
+          "min": 150,
+          "max": 150
+        }
+      ],
+      "items": [
+        {
+          "id": "rustmine:ammo_556",
+          "min": 30,
+          "max": 120,
+          "weight": 76.92
+        },
+        {
+          "id": "rustmine:targeting_computer",
+          "min": 1,
+          "max": 1,
+          "weight": 61.54
+        },
+        {
+          "id": "rustmine:c4",
+          "min": 1,
+          "max": 1,
+          "weight": 36.5
+        },
+        {
+          "id": "rustmine:mp5",
+          "min": 1,
+          "max": 30,
+          "weight": 32.31
+        },
+        {
+          "id": "rustmine:gears",
+          "min": 5,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:metal_pipe",
+          "min": 5,
+          "max": 6,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:sheet_metal",
+          "min": 5,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:techparts",
+          "min": 4,
+          "max": 5,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:hqm",
+          "min": 32,
+          "max": 40,
+          "weight": 25.64
+        },
+        {
+          "id": "rustmine:pump_shotgun",
+          "min": 1,
+          "max": 12,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:m92",
+          "min": 1,
+          "max": 30,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:m39",
+          "min": 1,
+          "max": 50,
+          "weight": 22.19
+        },
+        {
+          "id": "rustmine:beancan_grenade",
+          "min": 2,
+          "max": 4,
+          "weight": 21.98
+        },
+        {
+          "id": "rustmine:satchel_charge",
+          "min": 1,
+          "max": 1,
+          "weight": 21.98
+        },
+        {
+          "id": "rustmine:chainsaw",
+          "min": 1,
+          "max": 1,
+          "weight": 10.99
+        },
+        {
+          "id": "rustmine:jackhammer",
+          "min": 1,
+          "max": 1,
+          "weight": 10.99
+        },
+        {
+          "id": "rustmine:metal_facemask",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:metal_chestplate",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:ak47",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:bolt",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        },
+        {
+          "id": "rustmine:m249",
+          "min": 1,
+          "max": 1,
+          "weight": 10.12
+        }
+      ]
+    }
+  }
+}

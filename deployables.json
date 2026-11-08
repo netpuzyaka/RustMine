@@ -1,0 +1,15 @@
+{
+  "deployables": {
+    "ladder_wooden": { "health": 100.0, "containerSlots": 0 },
+    "box_wooden": { "health": 100.0, "containerSlots": 12 },
+    "box_wooden_large": { "health": 300.0, "containerSlots": 48 },
+    "workbench1": { "health": 500.0, "containerSlots": 0 },
+    "workbench2": { "health": 750.0, "containerSlots": 0 },
+    "workbench3": { "health": 1000.0, "containerSlots": 0 },
+    "furnace": { "health": 500.0, "containerSlots": 6 },
+    "furnace_large": { "health": 1000.0, "containerSlots": 18 },
+    "campfire": { "health": 100.0, "containerSlots": 5 },
+    "research_table": { "health": 200.0, "containerSlots": 2 },
+    "recycler": { "health": 1000.0, "containerSlots": 12 }
+  }
+}
